@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<ai:aircrafts xmlns:ai="http://www.example.com/aircraft"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.example.com/aircraft aircraftSchema.xsd">
+    <aircraft id="001">
+        <model>FA-16</model>
+        <individualNum>12321432</individualNum>
+        <origin>USA</origin>
+        <type>Military</type>
+        <chars>
+           <seats>2</seats>
+            <rockets>true</rockets>
+            <rocketsNum>10</rocketsNum>
+        </chars>
+        <parametres>
+            <fuelcapacity>22</fuelcapacity>
+            <maxspeed>1200</maxspeed>
+        </parametres>
+        <price>1000000</price>
+    </aircraft>
+
+    <aircraft id="002">
+        <model>Boeing777</model>
+        <individualNum>12324535</individualNum>
+        <origin>GB</origin>
+        <type>Civil</type>
+        <chars>
+            <seats>100</seats>
+            <rockets>false</rockets>
+            <rocketsNum>0</rocketsNum>
+        </chars>
+        <parametres>
+            <fuelcapacity>29</fuelcapacity>
+            <maxspeed>600</maxspeed>
+        </parametres>
+        <price>800000</price>
+    </aircraft>
+    <aircraft id="003">
+        <model>MI-27</model>
+        <individualNum>124324532</individualNum>
+        <origin>Russia</origin>
+        <type>Military</type>
+        <chars>
+            <seats>2</seats>
+            <rockets>true</rockets>
+            <rocketsNum>24</rocketsNum>
+        </chars>
+        <parametres>
+            <fuelcapacity>22</fuelcapacity>
+            <maxspeed>400</maxspeed>
+        </parametres>
+        <price>1200000</price>
+    </aircraft>
+    <aircraft id="004">
+        <model>SKAT-22</model>
+        <individualNum>1322432</individualNum>
+        <origin>Ukraine</origin>
+        <type>Civil</type>
+        <chars>
+            <seats>80</seats>
+            <rockets>false</rockets>
+            <rocketsNum>0</rocketsNum>
+        </chars>
+        <parametres>
+            <fuelcapacity>16</fuelcapacity>
+            <maxspeed>500</maxspeed>
+        </parametres>
+        <price>600000</price>
+    </aircraft>
+</ai:aircrafts>

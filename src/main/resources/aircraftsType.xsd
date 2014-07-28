@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<sch:schema xmlns:sch="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.example.com/aircraft"
+            xmlns="http://www.example.com/aircraft">
+    <sch:include schemaLocation="charType.xsd" />
+    <sch:include schemaLocation="paramType.xsd" />
+
+    <sch:complexType name="aircraftsType">
+    <sch:sequence>
+        <sch:element name="model" type="sch:string"/>
+        <sch:element name="individualNum" type="sch:string"/>
+        <sch:element name="origin" type="sch:string"/>
+        <sch:element name="type" type="sch:string"/>
+        <sch:element name="chars" type="charType"/>
+        <sch:element name="parametres" type="paramType"/>
+        <sch:element name="price" type="sch:int"/>
+    </sch:sequence>
+    <sch:attribute name="id" type="sch:int" use="required"/>
+</sch:complexType>
+ </sch:schema>

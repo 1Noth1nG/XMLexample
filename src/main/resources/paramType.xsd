@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<sch:schema xmlns:sch="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.example.com/aircraft"
+            xmlns="http://www.example.com/aircraft">
+    <sch:complexType name="paramType">
+        <sch:sequence>
+            <sch:element name="fuelcapacity" type="sch:int"/>
+            <sch:element name="maxspeed" type="sch:int"/>
+        </sch:sequence>
+    </sch:complexType>
+
+</sch:schema>

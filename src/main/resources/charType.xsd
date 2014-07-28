@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<sch:schema xmlns:sch="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.example.com/aircraft"
+            xmlns="http://www.example.com/aircraft">
+    <sch:complexType name="charType">
+        <sch:sequence>
+            <sch:element name="seats" type="sch:int"/>
+            <sch:element name="rockets" type="sch:boolean"/>
+            <sch:element name="rocketsNum" type="sch:int"/>
+        </sch:sequence>
+    </sch:complexType>
+    </sch:schema>

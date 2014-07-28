@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+        <st:students xmlns:st="http://www.example.com/students"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://www.example.com/students StudentSchema.xsd">
+
+    <student id="001">
+        <lastname>Ivanov</lastname>
+        <firstname>Ivan</firstname>
+        <birthday>01/03/1003</birthday>
+        <address>
+            <city>Karaganda</city>
+            <street>Ermekova</street>
+            <build>44</build>
+            <flat>47</flat>
+        </address>
+        <email>ivanov@mail.ru</email>
+        <group>IS-33</group>
+        <education>Бакалавриат</education>
+    </student>
+    <student id="002">
+        <lastname>Ivanov</lastname>
+        <firstname>Ivan</firstname>
+        <birthday>01/03/1003</birthday>
+        <address>
+            <city>Karaganda</city>
+            <street>Ermekova</street>
+            <build>44</build>
+            <flat>47</flat>
+        </address>
+        <email>ivanov@mail.ru</email>
+        <group>IS-33</group>
+        <education>Магистратура</education>
+    </student>
+    <student id="003">
+        <lastname>Artamonov</lastname>
+        <firstname>Dmitry</firstname>
+        <birthday>01/03/1003</birthday>
+        <address>
+            <city>Karaganda</city>
+            <street>Erubaev</street>
+            <build>43</build>
+            <flat>48</flat>
+        </address>
+        <email>da@mail.ru</email>
+        <group>IS-34</group>
+        <education>Бакалавриат</education>
+    </student>
+    <student id="004">
+        <lastname>Kabyshev</lastname>
+        <firstname>Didar</firstname>
+        <birthday>01/03/1003</birthday>
+        <address>
+            <city>Astana</city>
+            <street>Imanov</street>
+            <build>7</build>
+            <flat>41</flat>
+        </address>
+        <email>didar@mail.ru</email>
+        <group>IS-22</group>
+        <education>Бакалавриат</education>
+    </student>
+
+</st:students>
